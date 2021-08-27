@@ -1,9 +1,3 @@
 <resources>
-    <string name="app_name">Quiz_App</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
-    <string name="login">Login</string>
-    <string name="not_registered">Not Registered?</string>
-    <string name="register">REGISTER</string>
-    <string name="confirm_password">Confirm password</string>
+    <string name="app_name">QuestionPageBasic</string>
 </resources>
