@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity
 {
     EditText mTextUsername;
-    EditText mTextPassoword;
+    EditText mTextPassword;
     Button mButtonLogin;
     TextView mTextViewRegister;
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         mTextUsername = (EditText) findViewById(R.id.edittext_username);
-        mTextPassoword = (EditText) findViewById(R.id.edittext_password);
+        mTextPassword = (EditText) findViewById(R.id.edittext_password);
         mButtonLogin = (Button) findViewById(R.id.button_login);
         mTextViewRegister = (TextView) findViewById(R.id.textview_register);
         mTextViewRegister.setOnClickListener(new View.OnClickListener() {
